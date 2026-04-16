@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Custom CSS to hide the scrollbar for Webkit browsers (Chrome, Safari, Edge) */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+html, body, #root {
+    /* Use the same background color as your Home component (bg-[#0f171e]) */
+    background-color: #0f171e; 
+    /* Ensure height is at least full viewport height */
+    min-height: 100vh;
+}
